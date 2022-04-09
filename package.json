@@ -1,0 +1,24 @@
+{
+  "name": "kutty-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/tailwind.css -o ./dist/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAR-dev/kutty-tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SAR-dev/kutty-tailwind/issues"
+  },
+  "homepage": "https://github.com/SAR-dev/kutty-tailwind#readme",
+  "dependencies": {
+    "kutty": "^0.6.0",
+    "tailwindcss": "^2.2.19"
+  }
+}
